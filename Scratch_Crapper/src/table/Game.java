@@ -10,12 +10,12 @@ public class Game {
 		roll = new Roll();
 	}
 	
-	public int[] comeOutRoll() {
+	public int comeOutRoll() {
 		Roll roll = new Roll();
 		if (roll.checkCraps()) {
 			System.out.println(roll.toString() + "Result: Craps");
 		}
-		return null; 
+		return roll; 
 	}
 	
 }
